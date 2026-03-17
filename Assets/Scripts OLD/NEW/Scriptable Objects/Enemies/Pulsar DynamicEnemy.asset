@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12cce108bc3e65446a21214e590346cd, type: 3}
+  m_Name: Pulsar DynamicEnemy
+  m_EditorClassIdentifier: 
+  Name: 
+  Description: 
+  Health: 0
+  Damage: 0
+  MaxSpeed: 0
+  Sprite: {fileID: 0}
+  AnimatorController: {fileID: 0}
+  ACLP_Death: {fileID: 0}
+  ACLP_Attack: {fileID: 0}
+  ACLP_Hit: {fileID: 0}
+  ACLP_PlayerHit: {fileID: 0}

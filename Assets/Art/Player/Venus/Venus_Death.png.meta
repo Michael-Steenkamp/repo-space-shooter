@@ -70,7 +70,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -136,12 +136,12 @@ TextureImporter:
       name: Venus_Death_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 129
-        width: 60
-        height: 52
+        x: 0
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -158,12 +158,12 @@ TextureImporter:
       name: Venus_Death_1
       rect:
         serializedVersion: 2
-        x: 66
-        y: 129
-        width: 60
-        height: 53
+        x: 64
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -180,12 +180,12 @@ TextureImporter:
       name: Venus_Death_2
       rect:
         serializedVersion: 2
-        x: 127
-        y: 63
-        width: 65
-        height: 66
+        x: 128
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -202,12 +202,12 @@ TextureImporter:
       name: Venus_Death_3
       rect:
         serializedVersion: 2
-        x: 128
-        y: 128
-        width: 63
-        height: 63
+        x: 0
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -224,12 +224,12 @@ TextureImporter:
       name: Venus_Death_4
       rect:
         serializedVersion: 2
-        x: 0
+        x: 64
         y: 64
-        width: 65
+        width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -246,12 +246,12 @@ TextureImporter:
       name: Venus_Death_5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 63
+        x: 128
+        y: 64
+        width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -268,12 +268,12 @@ TextureImporter:
       name: Venus_Death_6
       rect:
         serializedVersion: 2
-        x: 16
-        y: 57
-        width: 7
-        height: 6
+        x: 0
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -290,12 +290,12 @@ TextureImporter:
       name: Venus_Death_7
       rect:
         serializedVersion: 2
-        x: 63
-        y: 55
-        width: 66
-        height: 73
+        x: 64
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -312,12 +312,12 @@ TextureImporter:
       name: Venus_Death_8
       rect:
         serializedVersion: 2
-        x: 63
+        x: 128
         y: 0
-        width: 69
-        height: 57
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -330,77 +330,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Venus_Death_9
-      rect:
-        serializedVersion: 2
-        x: 158
-        y: 48
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 26d46d4cf7dc5a4b0800000000000000
-      internalID: -5429707827078345374
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Venus_Death_10
-      rect:
-        serializedVersion: 2
-        x: 127
-        y: 12
-        width: 9
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e3a7d49ddb874e9c0800000000000000
-      internalID: -3898858620606121410
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Venus_Death_11
-      rect:
-        serializedVersion: 2
-        x: 135
-        y: 0
-        width: 51
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ce5b05bfdc237abe0800000000000000
-      internalID: -1466147293419751956
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 62422711b1348ef40a34522b158d6b41
     internalID: 0
     vertices: []
     indices: 
@@ -408,12 +342,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":3.0,"y":3.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Venus_Death_0: -3203702437167234156
       Venus_Death_1: 6176551086156146905
-      Venus_Death_10: -3898858620606121410
-      Venus_Death_11: -1466147293419751956
       Venus_Death_2: -4515937442516084684
       Venus_Death_3: 7963797318449295910
       Venus_Death_4: 6023682806259805669
@@ -421,7 +355,6 @@ TextureImporter:
       Venus_Death_6: 846232033753457929
       Venus_Death_7: 1113384546419563527
       Venus_Death_8: -6171377049804656575
-      Venus_Death_9: -5429707827078345374
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

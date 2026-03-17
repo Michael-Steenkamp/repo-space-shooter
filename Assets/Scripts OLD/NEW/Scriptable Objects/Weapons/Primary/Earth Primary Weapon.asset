@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad81eb52d721624eaf9db9914e7302b, type: 3}
+  m_Name: Earth Primary Weapon
+  m_EditorClassIdentifier: 
+  Sprite: {fileID: -5538527700393615271, guid: aad3065f5bd24464e86dc61877a0fa50, type: 3}
+  Damage: 10
+  Speed: 50
+  Lifetime: 2
+  ACLP_Fire: {fileID: 8300000, guid: 2567ce9e6788b4e4fbb3c00425790701, type: 3}

@@ -70,7 +70,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -136,12 +136,12 @@ TextureImporter:
       name: Mercury_Death_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 129
-        width: 60
-        height: 52
+        x: 0
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -158,12 +158,12 @@ TextureImporter:
       name: Mercury_Death_1
       rect:
         serializedVersion: 2
-        x: 66
-        y: 129
-        width: 60
-        height: 53
+        x: 64
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -180,12 +180,12 @@ TextureImporter:
       name: Mercury_Death_2
       rect:
         serializedVersion: 2
-        x: 127
-        y: 63
-        width: 65
-        height: 66
+        x: 128
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -202,12 +202,12 @@ TextureImporter:
       name: Mercury_Death_3
       rect:
         serializedVersion: 2
-        x: 128
-        y: 128
-        width: 63
-        height: 63
+        x: 0
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -224,12 +224,12 @@ TextureImporter:
       name: Mercury_Death_4
       rect:
         serializedVersion: 2
-        x: 0
+        x: 64
         y: 64
-        width: 65
+        width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -246,12 +246,12 @@ TextureImporter:
       name: Mercury_Death_5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 63
+        x: 128
+        y: 64
+        width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -268,12 +268,12 @@ TextureImporter:
       name: Mercury_Death_6
       rect:
         serializedVersion: 2
-        x: 16
-        y: 57
-        width: 7
-        height: 6
+        x: 0
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -290,12 +290,12 @@ TextureImporter:
       name: Mercury_Death_7
       rect:
         serializedVersion: 2
-        x: 63
-        y: 55
-        width: 66
-        height: 73
+        x: 64
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -312,12 +312,12 @@ TextureImporter:
       name: Mercury_Death_8
       rect:
         serializedVersion: 2
-        x: 63
+        x: 128
         y: 0
-        width: 69
-        height: 57
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -330,77 +330,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Mercury_Death_9
-      rect:
-        serializedVersion: 2
-        x: 158
-        y: 48
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 12f79a0c569d1dd60800000000000000
-      internalID: 7913345051313930017
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mercury_Death_10
-      rect:
-        serializedVersion: 2
-        x: 127
-        y: 12
-        width: 9
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 267375ec2b362a310800000000000000
-      internalID: 1414802852564907874
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mercury_Death_11
-      rect:
-        serializedVersion: 2
-        x: 135
-        y: 0
-        width: 51
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6fd2a90b183ad8ca0800000000000000
-      internalID: -6012970150060741130
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 955c6e42aea85884d8d2f3294b8167ea
     internalID: 0
     vertices: []
     indices: 
@@ -408,12 +342,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":3.0,"y":3.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Mercury_Death_0: 7621169794517795019
       Mercury_Death_1: -2176710431579305504
-      Mercury_Death_10: 1414802852564907874
-      Mercury_Death_11: -6012970150060741130
       Mercury_Death_2: -5059814456523828425
       Mercury_Death_3: -5832436419995047366
       Mercury_Death_4: 1377135814765592502
@@ -421,7 +355,6 @@ TextureImporter:
       Mercury_Death_6: 2008945315207181083
       Mercury_Death_7: -1626998794927581669
       Mercury_Death_8: -7533089624001442666
-      Mercury_Death_9: 7913345051313930017
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
