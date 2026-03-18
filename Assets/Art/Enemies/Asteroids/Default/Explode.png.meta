@@ -1,61 +1,7 @@
 fileFormatVersion: 2
-guid: 4095020960a8dfb45bbec361b679c53c
+guid: 5ffcd719e04536b48a6d56a6baeb30a4
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -2887184577470883374
-    second: Explode_0
-  - first:
-      213: 8288982013464879355
-    second: Explode_1
-  - first:
-      213: -4085701817799866075
-    second: Explode_2
-  - first:
-      213: -5964474748036044434
-    second: Explode_3
-  - first:
-      213: 1990628112201042793
-    second: Explode_4
-  - first:
-      213: -3628878560167924253
-    second: Explode_5
-  - first:
-      213: 7567364251426146524
-    second: Explode_6
-  - first:
-      213: 3922013827564356088
-    second: Explode_7
-  - first:
-      213: 4656664880184106566
-    second: Explode_8
-  - first:
-      213: 4967248721380340181
-    second: Explode_9
-  - first:
-      213: 3205717360558668989
-    second: Explode_10
-  - first:
-      213: 4808753941595176866
-    second: Explode_11
-  - first:
-      213: 7586115909338466710
-    second: Explode_12
-  - first:
-      213: 3986073619053879888
-    second: Explode_13
-  - first:
-      213: -5579501446444567771
-    second: Explode_14
-  - first:
-      213: -5908185925889161428
-    second: Explode_15
-  - first:
-      213: -8392294002094736907
-    second: Explode_16
-  - first:
-      213: -4035166410313621681
-    second: Explode_17
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -102,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -126,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -151,7 +97,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Explode_0
+      name: explode asteroid_0
       rect:
         serializedVersion: 2
         x: 0
@@ -159,21 +105,21 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2d99cda7ce8aee7d0800000000000000
-      internalID: -2887184577470883374
+      spriteID: adc2cb7f8d2d2e944adc9e29ed6c98c4
+      internalID: 2118888048
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Explode_1
+      name: explode asteroid_1
       rect:
         serializedVersion: 2
         x: 64
@@ -181,21 +127,21 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bf02d2e6931680370800000000000000
-      internalID: 8288982013464879355
+      spriteID: 91d6d8fa98928b0439570af7823c3ecc
+      internalID: 344619947
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Explode_2
+      name: explode asteroid_2
       rect:
         serializedVersion: 2
         x: 128
@@ -203,21 +149,21 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5290fdbf7dbac47c0800000000000000
-      internalID: -4085701817799866075
+      spriteID: 888d30eb954485340b9f84fd84129c80
+      internalID: 1939577761
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Explode_3
+      name: explode asteroid_3
       rect:
         serializedVersion: 2
         x: 0
@@ -225,21 +171,21 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e69268b51dde93da0800000000000000
-      internalID: -5964474748036044434
+      spriteID: 87d14e8655dda9d4fa11c764acb01955
+      internalID: -2130996028
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Explode_4
+      name: explode asteroid_4
       rect:
         serializedVersion: 2
         x: 64
@@ -247,21 +193,21 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 96b46a3a8b120ab10800000000000000
-      internalID: 1990628112201042793
+      spriteID: 6529f78356cc3d1408d16123b17a38b9
+      internalID: 621812072
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Explode_5
+      name: explode asteroid_5
       rect:
         serializedVersion: 2
         x: 128
@@ -269,21 +215,21 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3ede8281d22a3adc0800000000000000
-      internalID: -3628878560167924253
+      spriteID: ce2f4266cd83e2543b962896f86ad72a
+      internalID: -1581698824
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Explode_6
+      name: explode asteroid_6
       rect:
         serializedVersion: 2
         x: 0
@@ -291,21 +237,21 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cd8ce3c61bda40960800000000000000
-      internalID: 7567364251426146524
+      spriteID: 94cf6bfb40d34904eace64f596512f50
+      internalID: -716149026
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Explode_7
+      name: explode asteroid_7
       rect:
         serializedVersion: 2
         x: 64
@@ -313,15 +259,15 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8f1c424ebcacd6630800000000000000
-      internalID: 3922013827564356088
+      spriteID: 76cdf6112a1836346b6a1099ada0ee2e
+      internalID: 1751622285
       vertices: []
       indices: 
       edges: []
@@ -330,7 +276,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: d66e1a9429eb9654fbb4733821093565
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -338,18 +284,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":3.0,"y":3.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      Explode_0: -2887184577470883374
-      Explode_1: 8288982013464879355
-      Explode_2: -4085701817799866075
-      Explode_3: -5964474748036044434
-      Explode_4: 1990628112201042793
-      Explode_5: -3628878560167924253
-      Explode_6: 7567364251426146524
-      Explode_7: 3922013827564356088
+      explode asteroid_0: 2118888048
+      explode asteroid_1: 344619947
+      explode asteroid_2: 1939577761
+      explode asteroid_3: -2130996028
+      explode asteroid_4: 621812072
+      explode asteroid_5: -1581698824
+      explode asteroid_6: -716149026
+      explode asteroid_7: 1751622285
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
