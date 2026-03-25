@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.IO;
 using UnityEngine;
+using UnityEngine.Analytics;
 using UnityEngine.InputSystem;
 
 
@@ -82,12 +83,11 @@ public class SaveSystem : Singleton<SaveSystem>, ISystem
                 string json = File.ReadAllText(path);
                 LogSystem.Instance.Log("Loaded Sucessfully.", LogType.Debug, _logTag);
                 GameDataSystem.currentSave = JsonUtility.FromJson<SaveData>(json);
+                LogSystem.Instance.Log($"Save Name: {GameDataSystem.currentSave.Name}", LogType.Debug, _logTag);
             }
             else
             {
-                LogSystem.Instance.Log($"No Save Found.\nCreating New Save...", LogType.Debug, _logTag);
-                GameDataSystem.currentSave = new SaveData();
-                LogSystem.Instance.Log($"New Save Creation Successfull...", LogType.Debug, _logTag);
+                throw new FileNotFoundException($"Save file not found at path: {path}");
             }
         }
         catch (Exception e)

@@ -131,7 +131,7 @@ MonoBehaviour:
   camera: {fileID: 7459239547825329770, guid: 5cbd1a9cedb04e24aa70819bac735013, type: 3}
   background: {fileID: 1884367978294721569, guid: 1da440b028f09e249acd10c64df82292, type: 3}
   ACLP_MainMenu: {fileID: 8300000, guid: c046b86aabb8f4748968e43cb32a09ac, type: 3}
-  mainMenuCanvas: {fileID: 8141042662651201035, guid: a545817f9e724b9408cb970fb3774c33, type: 3}
+  mainMenuCanvas: {fileID: 197251908264462592, guid: a545817f9e724b9408cb970fb3774c33, type: 3}
   _settings: {fileID: 432168967416705774, guid: 226a2b9040df4fd48acecfc08938126a, type: 3}
 --- !u!114 &9171409980361904753
 MonoBehaviour:
@@ -246,6 +246,10 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: c62cc5f7-ad55-4f79-b5cd-2cc60d73781e
     m_ActionName: 'Credits/Navigate[/Keyboard/w,/Keyboard/s,/Keyboard/upArrow,/Keyboard/downArrow]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 9e28f631-aa5e-46c9-9bca-3b2c40a835e2
+    m_ActionName: 'Player/Secondary Attack[/Mouse/rightButton]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: Keyboard&Mouse
   m_DefaultActionMap: MainMenu

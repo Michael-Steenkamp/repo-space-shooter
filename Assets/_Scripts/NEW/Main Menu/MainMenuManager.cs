@@ -18,7 +18,7 @@ public class MainMenuManager : MonoBehaviour
 
     [Header("Main Menu")]
     [SerializeField] private AudioClip ACLP_MainMenu;
-    [SerializeField] private GameObject mainMenuCanvas;
+    [SerializeField] private MainMenuCanvasLogic mainMenuCanvas;
 
     [Header("Settings")]
     [SerializeField] private SettingsManager _settings;
@@ -28,6 +28,7 @@ public class MainMenuManager : MonoBehaviour
     public static event Action OnContinue;
     private void OnDestroy()
     {
+        MainMenuCanvasHeaderLogic.OnContinueAnimationComplete -= MainMenuCanvasHeaderOnContinueAnimationComplete;
         MainMenuCanvasHeaderLogic.OnFadeInAnimationComplete -= MainMenuCanvasHeaderOnAnimationCompleteHandler;
         SettingsManager.OnSettingsClosed -= OnSettingsClosedHandler;
         SettingsManager.OnSettingsOpened -= OnSettingsOpenedHandler;
@@ -35,6 +36,7 @@ public class MainMenuManager : MonoBehaviour
     }
     private void Awake()
     {
+        MainMenuCanvasHeaderLogic.OnContinueAnimationComplete += MainMenuCanvasHeaderOnContinueAnimationComplete;
         MainMenuCanvasHeaderLogic.OnFadeInAnimationComplete += MainMenuCanvasHeaderOnAnimationCompleteHandler;
         Systems.OnInitialized += AllSystemsInitializedHandler; // removed after initialization
         SettingsManager.OnSettingsClosed += OnSettingsClosedHandler;
@@ -55,11 +57,16 @@ public class MainMenuManager : MonoBehaviour
         if (!canContinue) { return; }
         canContinue = false;
 
+        LogSystem.Instance.Log("Continue Pressed", LogType.Info, _logTag);
+
         AudioSystem.Instance.PlayMusic(ACLP_MainMenu, true);
         eventSystem.enabled = true;
-        _settings.gameObject.SetActive(true);
-
         OnContinue?.Invoke();
+    }
+
+    private void MainMenuCanvasHeaderOnContinueAnimationComplete()
+    {
+        _settings.gameObject.SetActive(true);
     }
 
     private void OnSettingsOpenedHandler()

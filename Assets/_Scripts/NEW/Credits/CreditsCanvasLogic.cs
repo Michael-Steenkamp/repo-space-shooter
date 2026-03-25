@@ -13,7 +13,10 @@ public class CreditsCanvasLogic : MonoBehaviour
 
     private void Awake()
     {
+        LogSystem.Instance.Log("Initializing Credits Canvas...", LogType.Info, _logTag);
         TMP_Credits.text = Credits.GetCredits(GameDataSystem.currentChapter);
+        LogSystem.Instance.Log($"Credits for Chapter {GameDataSystem.currentChapter} Set!", LogType.Info, _logTag);
+        LogSystem.Instance.Log("Credits Canvas Initialized!", LogType.Info, _logTag);
 
         scrollDirection = Vector3.up * scrollSpeed;
     }

@@ -1,5 +1,5 @@
 using DG.Tweening;
-//using EasyTextEffects;
+using EasyTextEffects;
 using System;
 using TMPro;
 using UnityEngine;
@@ -24,13 +24,8 @@ public class MainMenuCanvasHeaderLogic : MonoBehaviour, IAnimationEventsReceiver
     public static event Action OnFadeInAnimationComplete;
     public static event Action OnContinueAnimationComplete;
 
-    private void OnDestroy()
-    {
-        MainMenuManager.OnContinue -= Continue;
-    }
     private void Awake()
     {
-        MainMenuManager.OnContinue += Continue;
         ANIM_Title.AddClip(ANIMCLP_TitleFadeIn, TITLE_FADE_IN_KEY);
         ANIM_Title.AddClip(ANIMCLP_TitleContinue, TITLE_CONTINUE_KEY);
         titleContinueAnimDuration = ANIMCLP_TitleContinue.length;
@@ -50,7 +45,7 @@ public class MainMenuCanvasHeaderLogic : MonoBehaviour, IAnimationEventsReceiver
                 AudioSystem.Instance.PlaySfx(ACLP_FadeIn);
                 break;
             case "PlayContinueTextEffects":
-                //TMP_Continue.GetComponent<TextEffect>().StartManualEffects();
+                TMP_Continue.GetComponent<TextEffect>().StartManualEffects();
                 break;
             case "FadeInAnimationComplete":
                 OnFadeInAnimationComplete?.Invoke();
@@ -60,7 +55,7 @@ public class MainMenuCanvasHeaderLogic : MonoBehaviour, IAnimationEventsReceiver
                 break;
         }
     }
-    private void Continue()
+    public void PlayContinueAnimation()
     {
         //Disable Continue
         TMP_Continue.gameObject.SetActive(false);

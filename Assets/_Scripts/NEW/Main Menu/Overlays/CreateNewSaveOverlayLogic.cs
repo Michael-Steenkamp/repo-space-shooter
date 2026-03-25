@@ -64,6 +64,8 @@ public class CreateNewSaveOverlayLogic : MonoBehaviour
         newSave.DateCreated = DateTime.Now.ToString("yyyy-MM-dd");
 
         SaveSystem.Instance.Save(newSave, newSave.saveSlotID);
+        SaveSystem.Instance.Load(newSave.saveSlotID);
+        GameDataSystem.currentChapter = 1;
         SceneSystem.Instance.LoadScene(Scenes.Credits);
     }
 

@@ -16,21 +16,10 @@ public class MainMenuCanvasBodyLogic : MonoBehaviour
     [Header("Quit")]
     [SerializeField] private Button BTN_Quit;
 
-    private void OnDestroy()
-    {
-        MainMenuCanvasHeaderLogic.OnContinueAnimationComplete -= Continue;
-    }
     private void Awake()
     {
-        MainMenuCanvasHeaderLogic.OnContinueAnimationComplete += Continue;
-        gameObject.SetActive(false);
-
         saveLeft.LoadSave();
         saveCenter.LoadSave();
         saveRight.LoadSave();
-    }
-    private void Continue()
-    {
-        gameObject.SetActive(true);
     }
 }
