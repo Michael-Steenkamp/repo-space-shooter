@@ -30,7 +30,7 @@ DONE - "maxHp"
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerController : MonoBehaviour, IDamageable, IRegenerative
 {
-    protected readonly string _logTag;
+    static readonly string _logTag = "PlayerController";
 
     [Header("Scriptable Object")]
     [SerializeField] private Spaceship spaceship;
@@ -151,6 +151,7 @@ public class PlayerController : MonoBehaviour, IDamageable, IRegenerative
 
     public void Initialize(PlayerInput playerInput)
     {
+        LogSystem.Instance.Log("Initializing Player Controller... " + playerInput, LogType.Info, _logTag);
         moveAction = playerInput.actions["Move"];
         primaryAttackAction = playerInput.actions["Primary Attack"];
 

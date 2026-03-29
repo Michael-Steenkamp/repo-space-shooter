@@ -133,6 +133,9 @@ MonoBehaviour:
   ACLP_MainMenu: {fileID: 8300000, guid: c046b86aabb8f4748968e43cb32a09ac, type: 3}
   mainMenuCanvas: {fileID: 197251908264462592, guid: a545817f9e724b9408cb970fb3774c33, type: 3}
   _settings: {fileID: 432168967416705774, guid: 226a2b9040df4fd48acecfc08938126a, type: 3}
+  spaceship: {fileID: -8815712213938847780, guid: 6ca877669cc34e44fb5a048b60e4d7b8, type: 3}
+  levelsData:
+  - {fileID: 11400000, guid: 9399b14521f7c404c8c46609ed15efcb, type: 2}
 --- !u!114 &9171409980361904753
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -53,12 +53,18 @@ MonoBehaviour:
   cinemachine: {fileID: 2598621247158261558, guid: 509fa022dc34fbd4cb5c45885c8c0ed0, type: 3}
   background: {fileID: 4543769459354082864, guid: f9e9dae069fa7c54ab290c66b43f0ac7, type: 3}
   inGame: {fileID: 3934143480308259531, guid: 75cc279f85f6d3d438a9d4f9b1d42e88, type: 3}
-  player: {fileID: 5851743150533982304, guid: 63f2bf576879f9f4f8302b53790cfeb8, type: 3}
-  dynamicEnemy: {fileID: 6324410525931952561, guid: 3acb0f80723c22b4d8c14ce918550a50, type: 3}
   settings: {fileID: 432168967416705774, guid: 226a2b9040df4fd48acecfc08938126a, type: 3}
   deathScreen: {fileID: 3114747763954554987, guid: 22fba1ca9dd04f7409e415db969a6104, type: 3}
   completeScreen: {fileID: 7198648534274500097, guid: f3158f7efdad92a4195e50ff374d41ca, type: 3}
   pauseMenu: {fileID: 4287594853262682778, guid: 33cff2e6d14440046b1d9b35e1646ab4, type: 3}
+  spaceship: {fileID: -8815712213938847780, guid: 6ca877669cc34e44fb5a048b60e4d7b8, type: 3}
+  levelData: {fileID: 11400000, guid: 9399b14521f7c404c8c46609ed15efcb, type: 2}
+  dynamicEnemies: []
+  numEnemies: 0
+  isPaused: 0
+  isSettingsActive: 0
+  isPlayerAlive: 0
+  systems: {fileID: 0}
 --- !u!114 &3317861593415929550
 MonoBehaviour:
   m_ObjectHideFlags: 0

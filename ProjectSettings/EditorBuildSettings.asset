@@ -5,20 +5,35 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Scenes/NEW/MainMenu.unity
     guid: 99e0338841d7fea4192370aeb73c1e46
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Scenes/NEW/LevelSelect.unity
     guid: 59813cb98e201684d872608c601d6ac8
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Scenes/NEW/InGame.unity
     guid: 4189e63001466bb4a8aa93ed7ffd1aae
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Scenes/NEW/Credits.unity
     guid: fc1e03015faa62b4f9b92bacad983e69
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Scenes/NEW/ChapterSelect.unity
     guid: 8639ba0277bc01f45bcbb17a1ecce4d4
+  - enabled: 1
+    path: Assets/_Scenes/MainMenu.unity
+    guid: adedec78fdf84bb4cb937f541c40cbc1
+  - enabled: 1
+    path: Assets/_Scenes/LevelSelect.unity
+    guid: 59f9a44a4c2bd47478f57e60406b364e
+  - enabled: 1
+    path: Assets/_Scenes/InGame.unity
+    guid: ff49b2deee6973042a406795b22630dc
+  - enabled: 1
+    path: Assets/_Scenes/Credits.unity
+    guid: da7b61156d12b8e4389a05ef2df7949c
+  - enabled: 1
+    path: Assets/_Scenes/ChapterSelect.unity
+    guid: b26538eff69be5c4c8c6b6c138c8fb3b
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

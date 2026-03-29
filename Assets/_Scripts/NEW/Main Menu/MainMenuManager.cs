@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.Analytics;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 
@@ -57,11 +58,11 @@ public class MainMenuManager : MonoBehaviour
         if (!canContinue) { return; }
         canContinue = false;
 
-        LogSystem.Instance.Log("Continue Pressed", LogType.Info, _logTag);
+        //LogSystem.Instance.Log("Continue Pressed", LogType.Info, _logTag);
 
-        AudioSystem.Instance.PlayMusic(ACLP_MainMenu, true);
-        eventSystem.enabled = true;
-        OnContinue?.Invoke();
+        //AudioSystem.Instance.PlayMusic(ACLP_MainMenu, true);
+        //eventSystem.enabled = true;
+        //OnContinue?.Invoke();
     }
 
     private void MainMenuCanvasHeaderOnContinueAnimationComplete()
@@ -95,11 +96,27 @@ public class MainMenuManager : MonoBehaviour
 
         eventSystem = Instantiate(eventSystem);
         eventSystem.enabled = false;
+
+
+        // TESTING
+        GameDataSystem.currentChapter = testing_Ch;
+        GameDataSystem.currentLevel = testing_Lv;
+
+        GameDataSystem.spaceship = testing_spaceship;
+        GameDataSystem.levelsData = testing_LevelData;
+        SaveSystem.Instance.Load(1);
+
+        SceneSystem.Instance.LoadScene(Scenes.InGame);
     }
+
+    [SerializeField] private PlayerController testing_spaceship;
+    [SerializeField] private LevelData[] testing_LevelData;
+    [SerializeField] private int testing_Ch;
+    [SerializeField] private int testing_Lv;
 
     private void MainMenuCanvasHeaderOnAnimationCompleteHandler()
     {
         playerInput.enabled = true;
-        canContinue = true;
+        //canContinue = true;
     }
 }

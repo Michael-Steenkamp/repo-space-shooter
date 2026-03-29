@@ -3,6 +3,7 @@ using Unity.Cinemachine;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
+using UnityEngine.Rendering.VirtualTexturing;
 
 public class InGameManager : MonoBehaviour
 {
@@ -38,6 +39,10 @@ public class InGameManager : MonoBehaviour
     [SerializeField] private bool isSettingsActive;
     [SerializeField] private bool isPlayerAlive;
 
+    //TEMP
+    public Systems systems;
+
+
     private void OnDestroy()
     {
         PauseMenuLogic.OnResumeGame -= ResumeGame;
@@ -65,16 +70,18 @@ public class InGameManager : MonoBehaviour
         // InGame
         inGame = Instantiate(inGame);
 
-        // Player
-        spaceship = Instantiate(spaceship);
-        spaceship.Initialize(playerInput);
-        cinemachine.Follow = spaceship.transform;
-        
+
+
         // Overlays
         //settings = Instantiate(settings);
         //deathScreen = Instantiate(deathScreen);
         //completeScreen = Instantiate(completeScreen);
         //pauseMenu = Instantiate(pauseMenu);
+
+
+
+        // TEMP
+        //Instantiate(systems).Initialize();
 
 
         isPaused = false;
@@ -84,7 +91,13 @@ public class InGameManager : MonoBehaviour
 
     private void Start()
     {
+        // Player
+        spaceship = Instantiate(spaceship);
+        spaceship.Initialize(playerInput);
+        cinemachine.Follow = spaceship.transform;
+
         string levelName = $"Chapter {GameDataSystem.currentChapter} - Level {GameDataSystem.currentLevel}";
+        Debug.Log($"Level Data: {levelName}, Enemies: {levelData.NumberOfEnemies}, Time Limit: {levelData.TimeLimit}");
         numEnemies = levelData.NumberOfEnemies;
         float timer = levelData.TimeLimit;
         inGame.Initialize(levelName, numEnemies, timer);

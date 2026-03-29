@@ -27,7 +27,7 @@ public class LevelSelectLogic : MonoBehaviour
 
         // If the next chapter is unlocked then all the levels in this chapter are automatically unlocked
         const int FINAL_CHAPTER = 5;
-        if((GameDataSystem.currentChapter != FINAL_CHAPTER) && (GameDataSystem.currentSave.ChaptersUnlocked[GameDataSystem.currentChapter] == UNLOCKED_STATE))
+        //if((GameDataSystem.currentChapter != FINAL_CHAPTER) && (GameDataSystem.currentSave.ChaptersUnlocked[GameDataSystem.currentChapter] == UNLOCKED_STATE))
         {
             isUnlocked = true;
         }
