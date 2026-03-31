@@ -102,10 +102,11 @@ MonoBehaviour:
   spriteRenderer: {fileID: 2571417756859201338}
   animator: {fileID: 8952481253684846148}
   rb: {fileID: 4020643445673382514}
-  primaryWeapon: {fileID: 5673716919934567257, guid: 74762361af15ee14ab38c99b605e39b2, type: 3}
   maxHealth: 100
   currentHealth: 100
   moveDirection: {x: 0, y: 0}
+  gravitationalStrength: 0.1
+  primaryWeapon: {fileID: 5673716919934567257, guid: 74762361af15ee14ab38c99b605e39b2, type: 3}
   isAlive: 1
   isMoving: 0
   isAttacking: 0

@@ -113,9 +113,9 @@ MonoBehaviour:
   rb: {fileID: 4041073533415115299}
   collider: {fileID: 3889062034580164722}
   animator: {fileID: 3367732630862500820}
-  maxHealth: 0
-  currentHealth: 0
-  moveDirection: {x: 0, y: 0}
+  maxHealth: 100
+  maxSpeed: 0.1
+  currentHealth: 100
   target: {fileID: 0}
   isAlive: 1
   isMoving: 0

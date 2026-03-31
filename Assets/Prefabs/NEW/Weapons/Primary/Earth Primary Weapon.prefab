@@ -127,7 +127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f632693e82f086a488a2d2a8978667ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  primaryWeapon: {fileID: 11400000, guid: 5c13a492e5a5e2c489c69153d3b7804f, type: 2}
+  primaryWeapon: {fileID: 11400000, guid: be8fedc092310fb45ac2fd1ad0636683, type: 2}
   spriteRenderer: {fileID: 3581634878317334173}
   capsuleCollider: {fileID: 5310294914968477283}
   rb: {fileID: 7738127838755012478}

@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.PlayerLoop;
 
 [RequireComponent(typeof(SpriteRenderer))]
 [RequireComponent(typeof(Rigidbody2D))]
@@ -13,15 +14,18 @@ public class DynamicEnemyLogic : MonoBehaviour, IDamageable
 
     [Header("Components")]
     [SerializeField] private SpriteRenderer spriteRenderer;
-    [SerializeField] private Rigidbody2D rb;
+    [SerializeField] protected Rigidbody2D rb;
     [SerializeField] private new Collider2D collider;
     [SerializeField] private Animator animator;
 
     [Header("Properties")]
     [SerializeField] private float maxHealth;
+    [SerializeField] protected float maxSpeed;
     [SerializeField] private float currentHealth;
-    [SerializeField] private Vector2 moveDirection;
     [SerializeField] private GameObject target;
+
+    protected Vector2 targetDirection;
+    protected float targetDistance;
 
     [Header("States")]
     [SerializeField] private bool isAlive = true;
@@ -74,22 +78,17 @@ public class DynamicEnemyLogic : MonoBehaviour, IDamageable
         this.target = target;
     }
 
+    public GameObject GetTarget()
+    {
+        return target;
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.TryGetComponent<WeaponLogic>(out WeaponLogic weapon))
         {
             ApplyDamage(weapon.GetDamage());
             Destroy(collision.gameObject);
-        }
-    }
-
-    Vector3 direction;
-    private void Update()
-    {
-        if (isAlive)
-        {
-            direction = (target.transform.position - transform.position).normalized;
-            transform.position += direction * dynamicEnemy.MaxSpeed * Time.deltaTime;
         }
     }
 

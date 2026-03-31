@@ -44,6 +44,7 @@ public class PlayerController : MonoBehaviour, IDamageable, IRegenerative
     [SerializeField] private float maxHealth;
     [SerializeField] private float currentHealth;
     [SerializeField] private Vector2 moveDirection;
+    [SerializeField] private float gravitationalStrength;
 
     [Header("Weapons")]
     [SerializeField] private PrimaryWeaponLogic primaryWeapon;
@@ -190,5 +191,10 @@ public class PlayerController : MonoBehaviour, IDamageable, IRegenerative
     public void DeathHandler()
     {
         LogSystem.Instance.Log("Death Handler", LogType.Todo, _logTag);
+    }
+
+    public float GetGravitationalPull()
+    {
+        return gravitationalStrength;
     }
 }
